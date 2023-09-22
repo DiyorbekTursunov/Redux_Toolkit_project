@@ -25,7 +25,7 @@ const MainCardDetail = () => {
         getCatigoryHandel()
     }, [catigory])
     return (
-        <div className='grid grid-cols-3 gap-[20px]'>
+        <div className='grid grid-cols-2 gap-[20px]'>
             {isLoading && <h1 className='text-[24px]'>loading...</h1>}
             {cards && cards.map(item => (
                 <MainCardItem {...item} key={item.id} />

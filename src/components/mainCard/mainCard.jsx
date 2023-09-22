@@ -7,9 +7,9 @@ const MainCard = () => {
   return (
     <>
       <div className='w-full  mx-auto pb-[170px]'>
-        <DataCatigory />
       </div>
-      <div className='max-w-[1110px] mx-auto px-5 pb-[100px]'>
+      <div className='max-w-[1110px] flex  mx-auto px-5 pb-[100px]'>
+        <DataCatigory />
         <MainCardDetail />
       </div>
     </>
